@@ -1,0 +1,19 @@
+package com.exoplatform.app;
+
+import com.thoughtworks.selenium.SeleneseTestCase;
+
+public class exportGmailSeleniumJunit3 extends SeleneseTestCase {
+	public void setUp() throws Exception {
+		setUp("https://accounts.google.com/", "*chrome");
+	}
+	public void testExportGmailSeleniumJunit3() throws Exception {
+		selenium.open("/ServiceLogin?service=mail&passive=true&rm=false&continue=http://mail.google.com/mail/&scc=1&ltmpl=default&ltmplcache=2");
+		selenium.type("id=Email", "nguyenthienhuong0305");
+		selenium.click("id=signIn");
+		selenium.waitForPageToLoad("30000");
+		selenium.selectFrame("c1n2mxpic225kk");
+		selenium.click("//div[@id=':hp']/div/div");
+		selenium.type("id=:fm", "ex");
+		selenium.type("id=:ej", "Selenium test");
+	}
+}
