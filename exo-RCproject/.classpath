@@ -5,5 +5,6 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
 	<classpathentry kind="lib" path="/home/huong_nguyenthien/java/eclipse/jre/lib/selenium-java-client-driver.jar"/>
 	<classpathentry kind="lib" path="/home/huong_nguyenthien/java/eclipse/jre/lib/selenium-server.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

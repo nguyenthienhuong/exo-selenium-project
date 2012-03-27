@@ -9,7 +9,7 @@ public class GoogleSeleniumTest {
 
     public static void main(String[] arguments) {
         HttpCommandProcessor cmdProcessor =
-                new HttpCommandProcessor("localhost", 4444, "*firefox", "http://www.google.com");
+                new HttpCommandProcessor("localhost", 4444, "*chrome", "http://www.google.com");
         browser = new DefaultSelenium(cmdProcessor);
         browser.start();
         browser.open("/");
